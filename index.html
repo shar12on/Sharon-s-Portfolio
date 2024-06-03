@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nweze Sharon's portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Nweze Sharon</h1>
+      <nav>
+        <ul>
+          <div class="social icons">
+          <li><a href="#about"><i class="about"></i>About</a></li>
+          <li><a href="#projects"><i class="projects"></i> Projects</a></li>
+          <li><a href="#skills"><i class="skills"></i>Skills</a></li>
+          <li><a href="#experience"><i class="experience"></i> Experience</a></li>
+          <li><a href="#contact"><i class="contacts"></i> Contact</a></li>
+        </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <img src="./sharon2.png" alt="hero image">
+      <h2>Hi! my name is Nweze Sharon.</h2>
+      <h3>I am a frontend developer</h3>
+      <h5>welcome to my Portfolio</h5>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+        <h1> About me</h1>
+      <P>
+        My name is Nweze Sharon, i am curently a freshman studying computer science at bells university of technology. Tho i am in my first year of university i have some years of coding experience as i have been actively coding since the year 2022. Recently i graduated from the advanced frontend certification course offred by the New Horizon ICT Center and i am now a certified. I a quite skilled in frontend development backend development and design,and have gathered experience through personal projects, group projects and my time in the New Horizon ICT Center.
+      </P>
+         </div>
+  </section>
+
+  <section id="projects">
+    <h1>My projects</h1>
+    <div class="container">
+      <!-- Showcase projects here -->
+      <li>
+        <img src="https://firebasestorage.googleapis.com/v0/b/jsporjects100.appspot.com/o/hFQ4qcvDcRYuZSWYofFE8SsflQw2-dice%20roll%20simulator.JPG-657d6a58-4cd8-47b4-a316-55395be147c7?alt=media&token=dfaea356-c27b-4a04-8d24-cc4c6c23ed26" alt="Image 3">
+                <a href="https://www.100jsprojects.com/project/dice-roll-simulator" input type="btn">view project</a>
+				<h3>Project name: Dice roller simulator project </h3>
+				<p>This features a dice at the center of the screen and a "Roll dice" button. The button triggers an animation and generates a random number, which is displayed in the center of the dice when clicked. Additionally, the number is added to a history list</p>
+      </li>
+
+      <li>
+        <img src="https://www.sliderrevolution.com/wp-content/uploads/2023/04/image-slider-example.jpg" alt="img 2">
+        <a href="https://www.100jsprojects.com/project/testimonial-slider" input type="btn">view project</a>
+        <h3>Project name: Testimonial slider project</h3>
+        <p>This is a testimonial slider,it uses a timer to change the sliders automatocally</p>       
+    </li>
+
+    <li>
+        <img src="https://firebasestorage.googleapis.com/v0/b/jsporjects100.appspot.com/o/hFQ4qcvDcRYuZSWYofFE8SsflQw2-tip%20calculator.JPG-02ad0ddd-7686-4841-9b6c-37cba014b7c8?alt=media&token=9c7d679d-89da-474d-9594-ec04dab7e7fd" alt="img 3">
+				<a href="https://www.100jsprojects.com/project/tip-calculator" input type="btn">view poject</a>
+				<h3>Project name: Tip calculator</h3>
+				<p>In this project, i aimed to build a modern tip calculator. It uses JavaScript to obtain the values of two input fields and calculate the total amount based on these values.</p>
+    </li>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h1> My skills</h1>
+      <h3>Frontend development</h3>
+    <ul style="list-style-type: square">
+      <li>HTML <progress max="100" value="80"></progress></li> 
+      <li>CSS <progress max="100" value="70"></progress></li>
+    </ul>
+      <h3> Backend development</h3>
+      <ul style="list-style-type: square">
+      <li>Python <progress max="100" value="75"></progress></li>
+      <li>javaScript <progress max="100" value="85"></progress></li>
+      </ul>
+    <h3>Design skills</h3>
+    <ul style="list-style-type: square">
+      <li>UI<progress max="100" value="65"></progress></li>
+      <li>Adobe photoshoot<progress max="100" value="90"></progress></li>
+    </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h1>Experience</h1>
+      <h2> New Horizon ICT source Center</h2>
+      <h3> Frontend developer</h3>
+      <h4> October 2022- till date</h4>
+        <p>I have been actively coding since the year 2022 and have worked on a lot of projects since then. I have gained experience when i was enrolled in the advanved front end development course offredred by New Horizon ICT center and person projects and projects i worked on with colleagues</p>
+    </div>
+</section>
+
+  <section id="contact">
+    <div class="contact form container">
+        <h1>contact me</h1>
+      <!-- Contact form goes here -->
+        <form id="contact-form" method="post">
+            <ul>
+            <h5>Name</h5>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <h5> Email</h5>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+             <h5>Message</h5>
+            <textarea id="message" name="message" placeholder="Leave a Message" required></textarea>
+            <button type="submit">Send</button>
+            </ul>
+        </form>
+        <div id="form-message"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Nweze Sharon. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
